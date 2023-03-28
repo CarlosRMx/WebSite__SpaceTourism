@@ -18,3 +18,27 @@
 body{
     font-family: 'Bellefair', serif;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+    margin-block-start: 4rem;
+}
+
+.nav__logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    border-radius: 50%;
+}
