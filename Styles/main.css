@@ -17,6 +17,11 @@
 
 body{
     font-family: 'Bellefair', serif;
+    background-image: url('../Images/home/background-home-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
 }
 a{
     text-decoration: none;
@@ -28,17 +33,69 @@ ul{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 30vh;
-    margin-block-start: 4rem;
+    max-width: 56rem;
+    height: 20vh;
+    margin-block-start: 1rem;
 }
 
 .nav__logoContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background-color: red;
+    width: 4rem;
+    height: 4rem;
+    margin-inline-start: 2rem;
+    margin-block-start: 0;
+    background-color: var(--textColor);
     border-radius: 50%;
+}
+.nav__logo{
+    width: 4rem;
+    height: 4rem;
+}
+.nav__line{
+    display: none;
+    width: 15rem;
+    height: 0.2rem;
+    background-color: red;
+}
+.nav__list{
+    display: none;
+}
+.nav__menuIcon{
+    margin-inline-end: 2.8rem;
+}
+.explore__container{
+    text-align: center;
+    padding: 0 2rem;
+}
+.explore__tittle{
+    font-weight: 300;
+    font-size: var(--textAuxiliary);
+    color: var(--textColor);
+}
+.explore__content{
+    font-size: var(--textlg);
+    color: var(--secondary);
+}
+.explore__oval{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: var(--textColor);
+}
+.explore__oval h2{
+    font-weight: 300;
+    line-height: 1.6rem;
+    color: var(--primary);
+}
+.explore__shape{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 6rem;
 }
