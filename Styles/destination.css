@@ -1,0 +1,45 @@
+body{
+    background-image: url('../Images/destination/background-destination-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.planet{
+    text-align: center;
+}
+.planet__header{
+    margin-block-end: 3.2rem;
+    font-size: var(--textlg);
+    color: var(--textColor);
+}
+.planet__header span{
+    margin-inline-end: 1.4rem;
+    font-size: var(--textlg);
+    color: var(--secondary);
+}
+.planet__image{
+    width: 16rem;
+    object-fit: cover;
+}
+.menu__container{
+    display: flex;
+    gap: 1.6rem;
+    margin-block-start: 2.4rem;
+}
+.menu__item a{
+    font-size: var(--textmd);
+    color: var(--secondary);
+}
+.planet__name{
+    margin-block-start: 3.2rem;
+    margin-block-end: 0;
+    font-size: var(--textAuxiliary);
+    font-weight: 300;
+    color: var(--textColor);
+}
+.planet__info{
+    margin-block-start: 0.5rem;
+    padding: 1rem;
+    font-size: var(--textlg);
+    color: var(--secondary);
+}
