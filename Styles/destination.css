@@ -2,7 +2,7 @@ body{
     background-image: url('../Images/destination/background-destination-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 .planet{
     text-align: center;
@@ -21,10 +21,15 @@ body{
     width: 16rem;
     object-fit: cover;
 }
+.menu{
+    display: flex;
+    justify-content: center;
+}
 .menu__container{
     display: flex;
     gap: 1.6rem;
     margin-block-start: 2.4rem;
+    padding: 0;
 }
 .menu__item a{
     font-size: var(--textmd);
@@ -43,3 +48,28 @@ body{
     font-size: var(--textlg);
     color: var(--secondary);
 }
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.detail__line{
+    display: block;
+    align-self: center;
+    background-color: var(--secondary);
+    width: 80vw;
+    height: 0.1rem;
+    margin-block-start: 1.2rem;
+    margin-block-end: 2.4rem;
+}
+.detail__tittle{
+    font-size: var(--textmd);
+    color: var(--secondary);
+}
+.detail__number{
+    margin-block-start: 1rem;
+    font-size: var(--textxl);
+    color: var(--textColor);
+}
+
