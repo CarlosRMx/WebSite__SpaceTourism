@@ -1,0 +1,32 @@
+body{
+    background-image: url('../Images/crew/background-crew-desktop.jpg');
+}
+
+.crew{
+    text-align: center;
+}
+.crew__tittle{
+    margin-block-end: 3.2rem;
+    font-size: var(--textlg);
+    color: var(--textColor);
+}
+.crew__tittle span{
+    margin-inline-end: 1.4rem;
+    font-size: var(--textlg);
+    color: var(--secondary);
+}
+.crew__image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.crew__image img{
+    width: 16rem;
+    object-fit: cover;
+}
+.crew__line{
+    display: block;
+    width: 80vw;
+    height: 0.1rem;
+    background-color: var(--textColor);
+}
