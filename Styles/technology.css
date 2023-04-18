@@ -1,6 +1,9 @@
 body{
     background-image: url("../Images/technology/background-technology-mobile.jpg");
-    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 680px;
 }
 .technology__title{
     text-align: center;
