@@ -48,6 +48,10 @@ body{
     background-color: var(--secondary);
     opacity: 25%;
 }
+.crewDots__item--active{
+    background-color: var(--textColor);
+    opacity: 100%;
+}
 .crewDescription{
     padding: 0 1.2rem;
     text-align: center;
