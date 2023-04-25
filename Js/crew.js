@@ -9,7 +9,6 @@ const dotThree= document.querySelector('#thirdDot');
 const dotFour = document.querySelector('#fourthDot');
 
 
-
 function missionEspecialis(){
     dotOne.classList.remove('crewDots__item--active');
     dotTwo.classList.add('crewDots__item--active');

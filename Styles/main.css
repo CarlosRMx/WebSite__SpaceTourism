@@ -100,5 +100,38 @@ ul{
     margin-block-start: 6rem;
 }
 
-/* STYLES TO THE PAGE DESTINATION */
+/* STYLES TO MOBILE MENU */
+
+.menu-mobile-container{
+    position: absolute;
+    right: 0;
+    margin-block-start: 112px;
+    padding: 12px 24px;
+    background: rgb(0,0,0);
+    background: linear-gradient(183deg, rgba(0,0,0,1) 0%, rgba(97,97,97,1) 41%, rgba(0,5,57,1) 100%);
+}
+.menu-mobile-container ul{
+    padding: 0;
+    margin: 24px 24px 0 0;
+    list-style: none;
+}
+.menu-mobile-container ul div{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-mobile-container ul img{
+    margin-block-end: 46px;
+}
+.menu-mobile-container ul li{
+    margin-bottom: 24px;
+}
+.menu-mobile-container ul li a{
+    text-decoration: none;
+    color: var(--textColor);
+    font-weight: bold;
+}
+.menu-mobile-container ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
 
