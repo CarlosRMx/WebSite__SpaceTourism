@@ -29,6 +29,9 @@ a{
 ul{
     list-style: none;
 }
+.inactive{
+    display: none;
+}
 
 .nav{
     display: flex;
@@ -131,7 +134,7 @@ ul{
     font-weight: bold;
 }
 .menu-mobile-container ul:nth-child(1){
-    border-bottom: 1px solid var(--very-light-pink);
+    border-bottom: 1px solid var(--textColor);
 }
 
 
