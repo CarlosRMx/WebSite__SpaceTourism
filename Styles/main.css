@@ -108,8 +108,11 @@ ul{
 .menu-mobile-container{
     position: absolute;
     right: 0;
-    margin-block-start: 112px;
-    padding: 12px 24px;
+    height: 100vh;
+    min-height: 51rem;
+    max-height: 90vh;
+    margin-block-start: 540px;
+    padding: 44px 56px;
     background: rgb(0,0,0);
     background: linear-gradient(183deg, rgba(0,0,0,1) 0%, rgba(97,97,97,1) 41%, rgba(0,5,57,1) 100%);
 }
@@ -130,11 +133,15 @@ ul{
 }
 .menu-mobile-container ul li a{
     text-decoration: none;
-    color: var(--textColor);
+    font-size: var(--textlg);
     font-weight: bold;
+    color: var(--textColor);
 }
 .menu-mobile-container ul:nth-child(1){
     border-bottom: 1px solid var(--textColor);
+}
+.btn--close{
+    margin-block-start: 2rem;
 }
 
 
