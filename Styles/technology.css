@@ -5,6 +5,14 @@ body{
     height: 100vh;
     min-height: 680px;
 }
+
+.techClick {
+    background-color: #000000;
+    border: 0.1rem solid var(--textColor);
+    opacity: 75%;
+    
+}
+
 .technology__title{
     text-align: center;
     margin-block-end: 3.8rem;
@@ -37,10 +45,13 @@ body{
     border: 0.1rem solid var(--secondary);
     border-radius: 50%;
 }
+
 .technology__container p{
     font-size: var(--textlg);
     color: var(--textColor);
+    font-weight: bold;
 }
+
 .technology__description{
     text-align: center;
     margin-block-start: 2.8rem;

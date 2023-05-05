@@ -1,3 +1,4 @@
+const moonDestination = document.querySelector('#moon');
 const marsDestination = document.querySelector('#mars');
 const europeDestination = document.querySelector('#europe');
 const titanDestination = document.querySelector('#titan');
@@ -8,6 +9,15 @@ const planetInfo = document.querySelector('.planet__info');
 const distancePlanet = document.querySelector('#distance');
 const timeTravel = document.querySelector('#time');
 
+moonDestination.addEventListener('click',()=>{
+    planetImg.setAttribute('src','./Images/destination/image-moon.png');
+    namePlanet.textContent='MOON';
+    planetInfo.textContent='See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.';
+    distancePlanet.textContent='384,400 KM';
+    timeTravel.textContent = '3 DAYS';
+
+})
+
 marsDestination.addEventListener('click', ()=>{
     planetImg.setAttribute('src','./Images/destination/image-mars.png');
     namePlanet.textContent='MARS';
@@ -15,7 +25,6 @@ marsDestination.addEventListener('click', ()=>{
     distancePlanet.textContent='225 MIL. KM';
     timeTravel.textContent = '9 MONTHS';
 
-    console.log('Estoy haciendo click');
 });
 
 europeDestination.addEventListener('click', ()=>{

@@ -91,6 +91,7 @@ ul{
     height: 12rem;
     border-radius: 50%;
     background-color: var(--textColor);
+    cursor: pointer;
 }
 .explore__oval h2{
     font-weight: 300;
@@ -109,7 +110,7 @@ ul{
     position: absolute;
     right: 0;
     height: 100vh;
-    min-height: 51rem;
+    min-height: 58rem;
     max-height: 90vh;
     margin-block-start: 540px;
     padding: 44px 56px;
