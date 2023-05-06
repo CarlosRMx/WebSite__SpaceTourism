@@ -1,0 +1,64 @@
+body{
+    background-image: url('../Images/home/background-home-tablet.jpg');
+}
+
+.nav{
+    margin-block-start: 0rem;
+}
+
+.nav__linkContainer{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    right: 0;
+    top: 0;
+    height: 8rem;
+    padding: 2rem;
+    background-color: var(--complementary);
+}
+.nav__list{
+    display: flex;
+    justify-self: flex-end;
+    gap: 1.8rem;
+}
+.nav__item a{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--textColor);
+}
+.nav__item a:hover{
+    border-bottom: solid 2px var(--textColor);
+}
+.nav__menuIcon{
+    display: none;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 3.2rem;
+}
+.explore__container{
+    text-align: center;
+    max-width: 520px;
+    /* padding: 0 6rem; */
+}
+.explore__content{
+    font-size: 2rem;
+}
+.explore__tittle{
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    font-size: 15rem;
+}
+.explore__oval{
+    width: 18rem;
+    height: 18rem;
+}
+.explore__oval h2{
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    color: var(--primary);
+}

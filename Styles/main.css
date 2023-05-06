@@ -2,6 +2,7 @@
     /* colors */
     --primary:#0B0D17;
     --secondary:#D0D6F9;
+    --complementary:#1e1e2c;
     --textColor:#FFFFFF;
 
     /* font */
@@ -23,7 +24,6 @@ body{
     height: 100vh;
 
 }
-
 a{
     text-decoration: none;
 }
