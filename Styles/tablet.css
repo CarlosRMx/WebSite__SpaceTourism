@@ -5,6 +5,13 @@ body{
 .nav{
     margin-block-start: 0rem;
 }
+.nav__logoContainer{
+    background: none;
+}
+.nav__logo{
+    position: absolute;
+    top: 42px;
+}
 
 .nav__linkContainer{
     display: flex;
