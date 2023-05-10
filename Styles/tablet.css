@@ -69,3 +69,46 @@ body{
     line-height: 1.6rem;
     color: var(--primary);
 }
+
+/* estilos para la pagina de destination.html */
+.destination{
+    min-height: 1180px;
+    background-image: url('../Images/destination/background-destination-tablet.jpg');
+}
+.planet__header{
+    text-align: start;
+    margin-block-start: 0;
+    padding-left: 3.8rem;
+    font-size: 2rem;
+}
+.planet__header span{
+    font-size: 2rem;
+}
+.planet__image{
+    width: 24rem;
+}
+.menu__container{
+    gap: 2rem;
+}
+.menu__item a{
+    font-size: 2rem;
+}
+.planet__name{
+    font-size: 7.8rem; 
+}
+.planet__info{
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.detail__trip{
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail__tittle{
+    font-size: 2.4rem;
+   
+}
+.detail__number{
+    font-size: 3rem;
+}

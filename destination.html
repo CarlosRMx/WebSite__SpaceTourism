@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="./Styles/normalize.css">
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="/Styles/destination.css">
+    <!-- queries -->
+    <link rel="stylesheet" href="/Styles/tablet.css" media="(min-width:758px)">
     <title>Space-tourism</title>
 </head>
-<body>
+<body class="destination">
     <nav class="nav">
         <div class="nav__logoContainer">
             <img src="./Images/Icons/logo.svg" class="nav__logo" alt="logo of the brand">
@@ -86,14 +88,16 @@
             <div class="detail__line">
                 <span></span>
             </div>
-            <div class="detail__distance">
-                <p class="detail__tittle">AVG. DISTANCE</p>
-                <h2 id="distance" class="detail__number">384,400 KM</h2>
-            </div>
-            <div class="detail__distance">
-                <p class="detail__tittle">EST. TRAVEL TIME</p>
-                <h2 id="time" class="detail__number">3 DAYS</h2>
-            </div>
+            <article class="detail__trip">
+                <div class="detail__distance">
+                    <p class="detail__tittle">AVG. DISTANCE</p>
+                    <h2 id="distance" class="detail__number">384,400 KM</h2>
+                </div>
+                <div class="detail__distance">
+                    <p class="detail__tittle">EST. TRAVEL TIME</p>
+                    <h2 id="time" class="detail__number">3 DAYS</h2>
+                </div>
+            </article>
         </section>
 
     </section>
