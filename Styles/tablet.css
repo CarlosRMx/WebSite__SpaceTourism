@@ -112,3 +112,24 @@ body{
 .detail__number{
     font-size: 3rem;
 }
+/* Estilos para la pagina de crew.html */
+.crewBackground{
+    background-image: url('../Images/crew/background-crew-mobile.jpg');
+}
+.crewContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+}
+.crew{
+    grid-area: 3/1/4/2 ;
+}
+.crewDescription{
+    grid-area: 1/1/2/2;
+    max-width: 520px;
+    margin: 0 auto;
+}
+.crew__line{
+    display: none;
+}
