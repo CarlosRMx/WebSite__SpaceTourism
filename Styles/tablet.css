@@ -113,42 +113,6 @@ body{
     font-size: 3rem;
 }
 /* Estilos para la pagina de crew.html */
-.crewBackground{
-    background-image: url('../Images/crew/background-crew-mobile.jpg');
-}
-.crewContainer{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.1fr 0.5fr;
-    align-items: center;
-}
-.crew{
-    grid-area: 3/1/4/2 ;
-    align-self: flex-end;
-}
-.crewDots{
-    align-self: flex-start;
-    margin-block-start: 0;
-    margin-block-start: 0;
-}
-.crewDescription{
-    justify-self: start;
-    grid-area: 1/1/2/2;
-    max-width: 520px;
-    margin: 0 auto;
-}
-.crew__line{
-    display: none;
-}
-.crew__image{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.crew__image img{
-    width: 32rem;
-    object-fit: cover;
-}
 
 /* estilos para la pagina de technology.html */
 .tech{
