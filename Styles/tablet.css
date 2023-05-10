@@ -149,3 +149,41 @@ body{
     width: 32rem;
     object-fit: cover;
 }
+
+/* estilos para la pagina de technology.html */
+.tech{
+    background-image: url("../Images/technology/background-technology-tablet.jpg");
+    min-height: 980px;
+}
+.technology__title{
+    text-align: start;
+    margin-block-start: 0;
+    padding-left: 3.8rem;
+    font-size: 2rem;
+}
+.technology__image{
+    height: 28rem;
+}
+.technology__container{
+    width: 6rem;
+    height: 6rem;
+}
+.technology__container p{
+    font-size: 2rem;
+}
+.technology__numbers{
+    margin-block-end: 4rem;
+}
+.technology__description{
+    max-width: 520px;
+    margin: 0 auto;
+}
+.technology__term{
+    font-size: 2rem;
+}
+.technology__vehicle{
+    font-size: 4rem;
+}
+.technology__content{
+    font-size: 2rem;
+}
