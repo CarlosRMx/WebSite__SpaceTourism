@@ -113,7 +113,50 @@ body{
     font-size: 3rem;
 }
 /* Estilos para la pagina de crew.html */
-
+.crewBackground{
+    background-image: url('../Images/crew/background-crew-tablet.jpg');
+}
+.crewContainer{
+    display: flex;
+    flex-direction: column;
+}
+.crew{
+    order: 3;
+}
+.crew__tittle{
+    text-align: start;
+    padding-left: 3.8rem;
+    font-size: 2rem;
+}
+.crew__image img{
+    width: 35rem;
+    height: 42rem;
+    object-fit: contain;
+}
+.crew__line{
+    display: none;
+}
+.crewDots{
+    order: 2;
+}
+.crewDots__item{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.crewDescription{
+    order: 1;
+    max-width: 520px;
+    margin: 0 auto;
+}
+.crewDescription__profession{
+    font-size: 2.4rem;
+}
+.crewDescription__name{
+    font-size: 4rem;
+}
+.crewDescription__content{
+    font-size: 2rem;
+}
 /* estilos para la pagina de technology.html */
 .tech{
     background-image: url("../Images/technology/background-technology-tablet.jpg");

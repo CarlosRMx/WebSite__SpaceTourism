@@ -10,6 +10,7 @@
     text-align: center;
 }
 .crew__tittle{
+    text-align: center;
     margin-block-end: 3.2rem;
     font-size: var(--textlg);
     color: var(--textColor);
