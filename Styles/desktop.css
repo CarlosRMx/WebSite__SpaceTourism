@@ -15,15 +15,17 @@ body{
     width: 100%;
 }
 .nav__logo{
+    margin-inline-start: 4rem;
 }
 .nav__line{
     display: block;
-    width: 45rem;
     height: 0.1rem;
+    padding-inline-start: 50rem;
+    margin-inline-start: 380px;
     background-color:var(--secondary);
 }
 .nav__linkContainer{
-    top: 2.2rem;
+    top:2rem;
     height: 6rem;
     padding: 2rem;
 }
