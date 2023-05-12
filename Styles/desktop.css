@@ -43,3 +43,53 @@ body{
     width: 22rem;
     height: 22rem;
 }
+/**Estilos para la pagina de destination.html*/
+
+.destination{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../Images/destination/background-destination-desktop.jpg');
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    justify-content: center;
+    margin-block-start: 5.2rem;
+}
+.planet{
+    grid-area: 1/1/3/2;
+}
+.planet__image{
+    width: 34rem;
+    justify-self: center;
+}
+.planet__info{
+    text-align: left;
+}
+.menu{
+    justify-self: flex-start;
+}
+.detail{
+    grid-area: 2/2/3/3;
+    justify-self: flex-start;
+    margin-block-start: 2.6rem;
+}
+.detail__trip{
+    justify-content: flex-start;
+    gap: 5.8rem;
+}
+.detail__tittle{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.detail__number{
+    text-align: left;
+}
+.detail__line{
+    display: none;
+}

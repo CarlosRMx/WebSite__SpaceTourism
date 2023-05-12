@@ -24,6 +24,8 @@
 .menu{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .menu__container{
     display: flex;
@@ -39,6 +41,7 @@
     border-bottom: 2px solid var(--textColor);
 }
 .planet__name{
+    text-align: center;
     margin-block-start: 3.2rem;
     margin-block-end: 0;
     font-size: var(--textAuxiliary);
@@ -46,6 +49,7 @@
     color: var(--textColor);
 }
 .planet__info{
+    text-align: center;
     margin-block-start: 0.5rem;
     padding: 1rem;
     font-size: var(--textlg);
