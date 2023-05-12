@@ -1,0 +1,43 @@
+/**Estilos para la pagina index.html*/
+
+body{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../Images/home/background-home-desktop.jpg');
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav__logo{
+}
+.nav__line{
+    display: block;
+    width: 45rem;
+    height: 0.1rem;
+    background-color:var(--secondary);
+}
+.nav__linkContainer{
+    top: 2.2rem;
+    height: 6rem;
+    padding: 2rem;
+}
+.explore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-block-start: 4.8rem;
+}
+.explore__content{
+    text-align: justify;
+    font-size: 2.4rem;
+}
+.explore__oval{
+    width: 22rem;
+    height: 22rem;
+}
