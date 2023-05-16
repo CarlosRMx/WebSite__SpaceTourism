@@ -128,6 +128,9 @@ body{
     padding-left: 3.8rem;
     font-size: 2rem;
 }
+.crew__tittle span{
+    font-size:  2rem;
+}
 .crew__image img{
     width: 35rem;
     height: 42rem;

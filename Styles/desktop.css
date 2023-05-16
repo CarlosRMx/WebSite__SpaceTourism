@@ -94,3 +94,34 @@ body{
 .detail__line{
     width: 32rem;
 }
+/**Estilos para la pagina crew.html*/
+.crewBackground{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../Images/crew/background-crew-desktop.jpg');
+}
+
+.crewContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+}
+.crew__tittle{
+    justify-self: start;
+    margin-inline-start: 4.6rem;
+}
+.crew{
+    grid-area: 1/2/4/3;
+    align-self: flex-end;
+}
+.crewDots{
+    margin-inline-start: 8.6rem;
+    justify-self: start;
+    align-self: flex-end;
+}
+.crewDescription{
+    text-align: left;
+}
