@@ -73,6 +73,7 @@ body{
 }
 .menu{
     justify-self: flex-start;
+    align-items: flex-start;
 }
 .detail{
     grid-area: 2/2/3/3;
